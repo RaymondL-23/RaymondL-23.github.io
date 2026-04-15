@@ -1,0 +1,91 @@
+/*General tags*/
+body{background: radial-gradient(circle, #86AED1,#679A7D); display: block;}
+
+header, footer{
+    display:block;
+    background-color: #679A7D;
+    border-radius: 20px;
+}
+h1{
+    background-color:#679A7D;
+    width: 33%;
+    border-radius: 20px;
+}
+h2{
+    height:auto;
+}
+p, ul{ 
+    font-size:x-large; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    margin:10px;
+}
+
+img{border-radius: 20px; margin: 10px; width:100%}
+th{font-size: x-large;}
+td{width: 50%; font-size: 20pt}
+tr, td{border: 1px solid black}
+
+/* END General tags*/
+
+/*Class tags*/
+.title{height: 30px}
+.container1{width: 40%;}
+.container2{width: 60%;}
+.contentLeft{justify-content: space-around;}
+.GIcontent{max-width: 33%;}
+.Right-Content-lower{width: 49%; border: 3px solid black; border-radius: 5px; }
+.Content-Image, .Content-Table, .Content-Box{width: 32%}
+
+.large-text{font-size: x-large;}
+.flex { display: flex; }
+.center { justify-content: center; }
+.left{justify-content: left;}
+.full-width { width: 100%; }
+.wrap{flex-wrap: wrap;}
+
+.generalinfo{
+    width: 57%; 
+    align-content: center;
+}
+.nav-item{
+    align-items: center; 
+    background-color: #F8EBBF; 
+    border-radius: 20px; 
+    width: 10%; 
+    height: 100%;
+}
+.nav-links{
+    border: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+
+
+/* END Class tags*/
+
+/*ID tags*/
+#Taniti-Island, #Fishing-boat{
+    height: auto;
+    margin: 10px;
+}
+
+#Current-location{
+    font-weight: bolder;
+    background-color: #AEBC6E; 
+}
+#Safety{
+    border: 1px solid Black;
+   
+}
+#Traveling, #Emergency{
+    width: 50%;
+}
+/* END ID tags*/
+
